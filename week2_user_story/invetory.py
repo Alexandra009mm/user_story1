@@ -48,15 +48,15 @@ while roll:
     print("1. add product=>  \n2. Show inventory=>   \n3. Statictis=> \n4. Exit =>")
     
     try:
-        ask = int(input("please enter a option: "))
+     ask = int(input("please enter a option: "))
     except: (ValueError,TypeError)
 
     if ask == 1:
 
         a = input("register a new product? yes/no: ").lower()
         while a == "yes":
-          add_product()
-          a = input("do you want add a new product? yes/no: ").lower()
+         add_product()
+        a = input("do you want add a new product? yes/no: ").lower()
 
        
 
